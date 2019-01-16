@@ -9,6 +9,6 @@ describe('fizzBuzz', function () {
    });
 
   it("should return fizzbuzz for multiples of three and five", function() {
-    expect(fizzbuzz(15)).toEqual("fizzbuzz")
+    expect(fizzBuzz(15)).toEqual("fizzbuzz")
   });
 });
